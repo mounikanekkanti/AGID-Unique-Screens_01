@@ -1,0 +1,469 @@
+.FAQ {
+  align-items: center;
+  background-color: #ffffff;
+  display: inline-flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  overflow-x: clip;
+}
+
+.FAQ .header-33 {
+  display: flex !important;
+  height: 375px !important;
+  width: 100% !important;
+}
+
+.FAQ .header-34 {
+  background-image: url(../../../static/img/rectangle-59-14.svg) !important;
+  left: 384px !important;
+}
+
+.FAQ .header-35 {
+  left: -1px !important;
+  width: 433px !important;
+}
+
+.FAQ .header-36 {
+  margin-bottom: -1px !important;
+}
+
+.FAQ .intro-4 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  width: 100%;
+}
+
+.FAQ .left-9 {
+  align-items: flex-start;
+  background: linear-gradient(to right, #fff0 57%, #9ecae1 73.92%, #005ea2 98%);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #005ea2;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px 0px 50px 60px;
+  position: relative;
+  width: 100%;
+}
+
+.FAQ .div-19 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  width: 100%;
+}
+
+.FAQ .state-profiles-3 {
+  color: var(--basebase-darker);
+  font-family: var(--h1-font-family);
+  font-size: var(--h1-font-size);
+  font-style: var(--h1-font-style);
+  font-weight: var(--h1-font-weight);
+  letter-spacing: var(--h1-letter-spacing);
+  line-height: var(--h1-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.FAQ .content-14 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 30px;
+  position: relative;
+  width: 1125px;
+}
+
+.FAQ .text-wrapper-166 {
+  align-self: stretch;
+  color: var(--basebase-darker);
+  font-family: var(--intro-font-family);
+  font-size: var(--intro-font-size);
+  font-style: var(--intro-font-style);
+  font-weight: var(--intro-font-weight);
+  letter-spacing: var(--intro-letter-spacing);
+  line-height: var(--intro-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.FAQ .FAQ-topic-menu-2 {
+  align-items: flex-start;
+  background-color: #ffffff;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 20px;
+  position: relative;
+  width: 100%;
+}
+
+.FAQ .frame-108 {
+  align-items: flex-end;
+  align-self: stretch;
+  background-color: var(--basebase-lightest);
+  border: 1px solid;
+  border-color: var(--basebase-light);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px 20px 50px 60px;
+  position: relative;
+  width: 647px;
+}
+
+.FAQ .text-wrapper-167 {
+  align-self: stretch;
+  color: var(--basebase-darker);
+  font-family: var(--h2-font-family);
+  font-size: var(--h2-font-size);
+  font-style: var(--h2-font-style);
+  font-weight: var(--h2-font-weight);
+  letter-spacing: var(--h2-letter-spacing);
+  line-height: var(--h2-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.FAQ .text-wrapper-168 {
+  align-self: stretch;
+  color: var(--basebase-darker);
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size);
+  font-style: var(--body-font-style);
+  font-weight: var(--body-font-weight);
+  letter-spacing: var(--body-letter-spacing);
+  line-height: var(--body-line-height);
+  position: relative;
+}
+
+.FAQ .search-2 {
+  white-space: nowrap !important;
+}
+
+.FAQ .search-3 {
+  align-self: stretch !important;
+  position: relative !important;
+  width: 100% !important;
+}
+
+.FAQ .search-4 {
+  width: 569px !important;
+}
+
+.FAQ .search-5 {
+  width: 430px !important;
+}
+
+.FAQ .search-6 {
+  left: 429px !important;
+}
+
+.FAQ .FAQ-filter-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: var(--full-white);
+  border: 1px solid;
+  border-color: var(--basebase-light);
+  border-radius: 10px 0px 0px 10px;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 20px;
+  position: relative;
+  width: 100%;
+}
+
+.FAQ .frame-109 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.FAQ .FAQ-filter-topic-4 {
+  align-items: center;
+  align-self: stretch;
+  background-color: var(--full-white);
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-color: var(--basebase);
+  display: flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  padding: 20px 10px;
+  position: relative;
+  width: 100%;
+}
+
+.FAQ .check-label-info-2 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 5px;
+  position: relative;
+}
+
+.FAQ .text-wrapper-169 {
+  color: var(--basebase-dark);
+  flex: 1;
+  font-family: var(--topic-label-font-family);
+  font-size: var(--topic-label-font-size);
+  font-style: var(--topic-label-font-style);
+  font-weight: var(--topic-label-font-weight);
+  letter-spacing: var(--topic-label-letter-spacing);
+  line-height: var(--topic-label-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.FAQ .FAQ-filter-topic-5 {
+  align-items: center;
+  align-self: stretch;
+  background-color: var(--primaryprimary-lighter);
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-color: #005ea2;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  padding: 15px 10px 15px 20px;
+  position: relative;
+  width: 100%;
+}
+
+.FAQ .text-wrapper-170 {
+  color: #005ea2;
+  flex: 1;
+  font-family: var(--sub-topic-label-font-family);
+  font-size: var(--sub-topic-label-font-size);
+  font-style: var(--sub-topic-label-font-style);
+  font-weight: var(--sub-topic-label-font-weight);
+  letter-spacing: var(--sub-topic-label-letter-spacing);
+  line-height: var(--sub-topic-label-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.FAQ .icon-366 {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.FAQ .FAQ-filter-topic-6 {
+  align-items: center;
+  align-self: stretch;
+  background-color: var(--basebase-lightest);
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-color: var(--basebase-light);
+  display: flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  padding: 15px 10px 15px 20px;
+  position: relative;
+  width: 100%;
+}
+
+.FAQ .what-is-AGID-3 {
+  color: var(--basebase-dark);
+  flex: 1;
+  font-family: var(--sub-topic-label-font-family);
+  font-size: var(--sub-topic-label-font-size);
+  font-style: var(--sub-topic-label-font-style);
+  font-weight: var(--sub-topic-label-font-weight);
+  letter-spacing: var(--sub-topic-label-letter-spacing);
+  line-height: var(--sub-topic-label-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.FAQ .frame-110 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  gap: 20px;
+  position: relative;
+  width: 738px;
+}
+
+.FAQ .frame-111 {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: var(--full-white);
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 20px;
+  padding: 100px 0px;
+  position: relative;
+}
+
+.FAQ .frame-112 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  padding: 50px 40px;
+  position: relative;
+  width: 738px;
+}
+
+.FAQ .text-wrapper-171 {
+  align-self: stretch;
+  color: var(--basebase);
+  font-family: var(--h5-font-family);
+  font-size: var(--h5-font-size);
+  font-style: var(--h5-font-style);
+  font-weight: var(--h5-font-weight);
+  letter-spacing: var(--h5-letter-spacing);
+  line-height: var(--h5-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.FAQ .text-wrapper-172 {
+  align-self: stretch;
+  color: #005ea2;
+  font-family: var(--h3-font-family);
+  font-size: var(--h3-font-size);
+  font-style: var(--h3-font-style);
+  font-weight: var(--h3-font-weight);
+  letter-spacing: var(--h3-letter-spacing);
+  line-height: var(--h3-line-height);
+  position: relative;
+}
+
+.FAQ .text-wrapper-173 {
+  align-self: stretch;
+  color: var(--basebase);
+  font-family: var(--body-list-font-family);
+  font-size: var(--body-list-font-size);
+  font-style: var(--body-list-font-style);
+  font-weight: var(--body-list-font-weight);
+  letter-spacing: var(--body-list-letter-spacing);
+  line-height: var(--body-list-line-height);
+  position: relative;
+}
+
+.FAQ .frame-113 {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: var(--basebase-lightest);
+  border-color: var(--basebase-lighter);
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-style: solid;
+  border-right-width: 1px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 30px;
+  padding: 50px 60px 50px 30px;
+  position: relative;
+}
+
+.FAQ .contact-block-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+  width: 100%;
+}
+
+.FAQ .text-wrapper-174 {
+  align-self: stretch;
+  color: var(--basebase-darker);
+  font-family: "Public Sans", Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+}
+
+.FAQ .arrow-link-12 {
+  flex: 0 0 auto !important;
+}
+
+.FAQ .arrow-link-13 {
+  color: #005ea2 !important;
+}
+
+.FAQ .arrow-link-14 {
+  background-image: url(../../../static/img/icon-369.svg) !important;
+}
+
+.FAQ .contact-partners-2 {
+  align-self: stretch;
+  color: var(--basebase-darker);
+  font-family: var(--h3-font-family);
+  font-size: var(--h3-font-size);
+  font-style: var(--h3-font-style);
+  font-weight: var(--h3-font-weight);
+  letter-spacing: var(--h3-letter-spacing);
+  line-height: var(--h3-line-height);
+  position: relative;
+}
+
+.FAQ .text-wrapper-175 {
+  color: var(--datatype-report);
+  font-family: "Public Sans", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: relative;
+  text-decoration: underline;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.FAQ .text-wrapper-176 {
+  color: var(--datatype-report);
+  font-family: "Public Sans", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.FAQ .footer-9 {
+  border-color: var(--basebase-light) !important;
+  border-top-style: solid !important;
+  border-top-width: 1px !important;
+  flex: 0 0 auto !important;
+  margin-left: -1px !important;
+  margin-right: -1px !important;
+  padding: 1px 0px 0px !important;
+  width: 1922px !important;
+}

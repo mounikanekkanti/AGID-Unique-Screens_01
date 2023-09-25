@@ -1,0 +1,98 @@
+.data-table-frame {
+  align-items: flex-start;
+  border-radius: 10px 10px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  overflow: hidden;
+  position: relative;
+  width: 80%;
+}
+
+.data-table-frame .save-bar {
+  align-self: stretch !important;
+  height: 80px !important;
+  width: 100% !important;
+}
+
+.data-table-frame .rows-instance {
+  color: var(--basebase-darker) !important;
+}
+
+.data-table-frame .design-component-instance-node {
+  flex: 0 0 auto !important;
+  height: 40px !important;
+}
+
+.data-table-frame .data-table-wrapper {
+  align-self: stretch;
+  border: 2px solid;
+  border-color: #565c65;
+  height: 837px;
+  overflow: scroll;
+  position: relative;
+  width: 100%;
+}
+
+.data-table-frame .save-bar-2 {
+  align-self: stretch !important;
+  background-color: var(--basebase-lighter) !important;
+  height: 76px !important;
+  width: 100% !important;
+}
+
+.data-table-frame .save-bar-3 {
+  margin-bottom: -2px !important;
+  margin-top: -2px !important;
+}
+
+.data-table-frame .save-bar-4 {
+  gap: 20px !important;
+}
+
+.data-table-frame .save-bar-5 {
+  background-color: var(--basebase-lightest) !important;
+  border: 2px solid !important;
+  border-color: var(--basebase-dark) !important;
+  display: flex !important;
+  height: 40px !important;
+  width: 200px !important;
+}
+
+.data-table-frame .save-bar-6 {
+  color: var(--basebase-dark) !important;
+  margin-bottom: -7px !important;
+  margin-left: -2px !important;
+  margin-top: -11px !important;
+}
+
+.data-table-frame .save-bar-7 {
+  color: var(--basebase-dark) !important;
+  margin-bottom: -7px !important;
+  margin-top: -11px !important;
+}
+
+.data-table-frame .save-bar-8 {
+  background-color: var(--basebase-lightest) !important;
+  border: 2px solid !important;
+  border-color: var(--basebase-dark) !important;
+  flex: 0 0 auto !important;
+  height: 40px !important;
+}
+
+.data-table-frame .icon-instance-node {
+  height: 26px !important;
+  margin-bottom: -9px !important;
+  margin-top: -9px !important;
+  position: relative !important;
+  width: 26px !important;
+}
+
+.data-table-frame .icon-save-alt {
+  height: 26px !important;
+  margin-bottom: -9px !important;
+  margin-right: -2px !important;
+  margin-top: -9px !important;
+  position: relative !important;
+  width: 26px !important;
+}

@@ -1,0 +1,904 @@
+.cell {
+  align-items: flex-start;
+  border-color: var(--basebase);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  position: relative;
+}
+
+.cell .state-2 {
+  align-self: stretch;
+  position: relative;
+}
+
+.cell .element {
+  position: relative;
+}
+
+.cell .vector {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.cell .data-element-name-2 {
+  color: var(--baseink);
+  font-family: var(--cell-category-font-family);
+  font-size: var(--cell-category-font-size);
+  font-style: var(--cell-category-font-style);
+  font-weight: var(--cell-category-font-weight);
+  letter-spacing: var(--cell-category-letter-spacing);
+  line-height: var(--cell-category-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.cell .data-2 {
+  color: var(--baseink);
+  flex: 1;
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size);
+  font-style: var(--body-font-style);
+  font-weight: var(--body-font-weight);
+  letter-spacing: var(--body-letter-spacing);
+  line-height: var(--body-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: right;
+}
+
+.cell .states-wrapper {
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+}
+
+.cell .states {
+  color: var(--baseink);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.cell .frame-6 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+}
+
+.cell .frame-7 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  position: relative;
+}
+
+.cell .category {
+  color: var(--baseink);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.cell .states-drop {
+  align-items: flex-start;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-color: var(--basebase);
+  border-left-style: solid;
+  border-right-style: solid;
+  border-right-width: 2px;
+  display: flex;
+  left: 0;
+  position: absolute;
+  top: 52px;
+}
+
+.cell .frame-8 {
+  flex-direction: column;
+}
+
+.cell .frame-9 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 0px;
+  position: relative;
+}
+
+.cell .frame-10 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  position: relative;
+  width: 265px;
+}
+
+.cell .single-entry {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 10px;
+  position: relative;
+}
+
+.cell .category-2 {
+  color: var(--basebase-darker);
+  flex: 1;
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size);
+  font-style: var(--body-font-style);
+  font-weight: var(--body-font-weight);
+  letter-spacing: var(--body-letter-spacing);
+  line-height: var(--body-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: right;
+}
+
+.cell .divider {
+  align-self: stretch;
+  height: 1px;
+  object-fit: cover;
+  position: relative;
+  width: 100%;
+}
+
+.cell .option {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  margin-right: -1px;
+  position: relative;
+  width: 266px;
+}
+
+.cell .text {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 8px 8px 8px 16px;
+  position: relative;
+  width: 100%;
+}
+
+.cell .checkbox {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  position: relative;
+  width: 194px;
+}
+
+.cell .checkbox-item-wrapper {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  position: relative;
+}
+
+.cell .checkbox-item {
+  color: #1b1b1b;
+  flex: 1;
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size);
+  font-style: var(--body-font-style);
+  font-weight: var(--body-font-weight);
+  letter-spacing: var(--body-letter-spacing);
+  line-height: var(--body-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.cell .divider-2 {
+  align-self: stretch;
+  height: 1px;
+  margin-bottom: -0.5px;
+  object-fit: cover;
+  position: relative;
+  width: 100%;
+}
+
+.cell .option-2 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  margin-bottom: -28px;
+  margin-right: -1px;
+  position: relative;
+  width: 266px;
+}
+
+.cell .drag-bar {
+  background-color: var(--basebase-light);
+  border-radius: 4px;
+  height: 122px;
+  margin-left: -1px;
+  margin-right: -1px;
+  margin-top: -1px;
+  position: relative;
+  width: 10px;
+}
+
+.cell .scroll-bar {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.cell .option-3 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 146px;
+}
+
+.cell .checkbox-2 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  position: relative;
+}
+
+.cell .frame-11 {
+  align-items: center;
+  align-self: stretch;
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.cell .checkbox-item-2 {
+  color: #1b1b1b;
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size);
+  font-style: var(--body-font-style);
+  font-weight: var(--body-font-weight);
+  letter-spacing: var(--body-letter-spacing);
+  line-height: var(--body-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.cell .divider-3 {
+  height: 1px;
+  margin-bottom: -0.5px;
+  object-fit: cover;
+  position: relative;
+  width: 132px;
+}
+
+.cell .option-4 {
+  flex: 0 0 auto;
+  object-fit: cover;
+  position: relative;
+  width: 146px;
+}
+
+.cell .frame-12 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  position: relative;
+  width: 100%;
+}
+
+.cell.state {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  padding: 14.9px 20px;
+  width: 283px;
+}
+
+.cell.first-column {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-right-style: solid;
+  border-right-width: 3px;
+  padding: 15px 10px;
+  width: 150px;
+}
+
+.cell.years-up {
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-right-style: solid;
+  border-right-width: 3px;
+  padding: 14px 10px;
+  width: 150px;
+}
+
+.cell.states-down {
+  background-color: var(--full-white);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-left-style: solid;
+  border-left-width: 2px;
+  border-right-style: solid;
+  border-right-width: 2px;
+  box-shadow: var(--down-shadow);
+  padding: 14px 10px;
+  width: 283px;
+}
+
+.cell.states-up {
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-right-style: solid;
+  border-right-width: 1px;
+  padding: 14px 10px;
+  width: 283px;
+}
+
+.cell.data {
+  border-right-style: solid;
+  border-right-width: 1px;
+  padding: 10px;
+  width: 283px;
+}
+
+.cell.category-down {
+  background-color: var(--full-white);
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-style: solid;
+  border-right-width: 2px;
+  box-shadow: var(--down-shadow);
+  padding: 14px 10px;
+  width: 283px;
+}
+
+.cell.category-up {
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-right-style: solid;
+  border-right-width: 1px;
+  padding: 14px 10px;
+  width: 283px;
+}
+
+.cell.years-down {
+  background-color: var(--full-white);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-left-style: solid;
+  border-left-width: 2px;
+  border-right-style: solid;
+  border-right-width: 2px;
+  box-shadow: var(--down-shadow);
+  padding: 14px 10px;
+  width: 150px;
+}
+
+.cell.even.years-up {
+  background-color: var(--basebase-lighter);
+}
+
+.cell.odd.data {
+  background-color: var(--full-white);
+}
+
+.cell.state.even {
+  background-color: var(--basebase-lighter);
+}
+
+.cell.odd.category-up {
+  background-color: var(--basebase-lightest);
+}
+
+.cell.states-up.odd {
+  background-color: var(--basebase-lightest);
+}
+
+.cell.even.first-column {
+  background-color: var(--basebase-lighter);
+}
+
+.cell.states-up.even {
+  background-color: var(--basebase-lighter);
+}
+
+.cell.odd.first-column {
+  background-color: var(--full-white);
+}
+
+.cell.state.odd {
+  background-color: var(--full-white);
+}
+
+.cell.category-up.even {
+  background-color: var(--basebase-lighter);
+}
+
+.cell.even.data {
+  background-color: var(--basebase-lighter);
+}
+
+.cell.odd.years-up {
+  background-color: var(--basebase-lightest);
+}
+
+.cell.state .state-2 {
+  color: var(--baseink);
+  font-family: var(--first-cell-font-family);
+  font-size: var(--first-cell-font-size);
+  font-style: var(--first-cell-font-style);
+  font-weight: var(--first-cell-font-weight);
+  letter-spacing: var(--first-cell-letter-spacing);
+  line-height: var(--first-cell-line-height);
+  margin-top: -1px;
+}
+
+.cell.first-column .state-2 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.cell.years-up .state-2 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  width: 100%;
+}
+
+.cell.states-up .state-2 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.cell.data .state-2 {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: flex-end;
+  padding: 5px;
+  width: 100%;
+}
+
+.cell.category-up .state-2 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.cell.first-column .element {
+  color: var(--baseink);
+  font-family: var(--cell-category-font-family);
+  font-size: var(--cell-category-font-size);
+  font-style: var(--cell-category-font-style);
+  font-weight: var(--cell-category-font-weight);
+  letter-spacing: var(--cell-category-letter-spacing);
+  line-height: var(--cell-category-line-height);
+  margin-top: -1px;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.cell.category-up .element {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+}
+
+.cell.state .states-wrapper {
+  display: inline-flex;
+  flex: 0 0 auto;
+}
+
+.cell.first-column .states-wrapper {
+  display: inline-flex;
+  flex: 0 0 auto;
+}
+
+.cell.years-up .states-wrapper {
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.cell.states-down .states-wrapper {
+  display: inline-flex;
+  flex: 0 0 auto;
+}
+
+.cell.states-up .states-wrapper {
+  display: inline-flex;
+  flex: 0 0 auto;
+}
+
+.cell.data .states-wrapper {
+  display: inline-flex;
+  flex: 0 0 auto;
+}
+
+.cell.category-down .states-wrapper {
+  display: inline-flex;
+  flex: 0 0 auto;
+}
+
+.cell.category-up .states-wrapper {
+  display: inline-flex;
+  flex: 0 0 auto;
+}
+
+.cell.years-down .states-wrapper {
+  display: inline-flex;
+  flex: 0 0 auto;
+}
+
+.cell.state .states {
+  font-family: var(--cell-category-font-family);
+  font-size: var(--cell-category-font-size);
+  font-weight: var(--cell-category-font-weight);
+  letter-spacing: var(--cell-category-letter-spacing);
+  line-height: var(--cell-category-line-height);
+}
+
+.cell.first-column .states {
+  font-family: var(--cell-category-font-family);
+  font-size: var(--cell-category-font-size);
+  font-weight: var(--cell-category-font-weight);
+  letter-spacing: var(--cell-category-letter-spacing);
+  line-height: var(--cell-category-line-height);
+}
+
+.cell.years-up .states {
+  font-family: "Public Sans", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.cell.states-down .states {
+  font-family: var(--cell-category-font-family);
+  font-size: var(--cell-category-font-size);
+  font-weight: var(--cell-category-font-weight);
+  letter-spacing: var(--cell-category-letter-spacing);
+  line-height: var(--cell-category-line-height);
+}
+
+.cell.states-up .states {
+  font-family: var(--cell-category-font-family);
+  font-size: var(--cell-category-font-size);
+  font-style: var(--cell-category-font-style);
+  font-weight: var(--cell-category-font-weight);
+  letter-spacing: var(--cell-category-letter-spacing);
+  line-height: var(--cell-category-line-height);
+}
+
+.cell.data .states {
+  font-family: var(--cell-category-font-family);
+  font-size: var(--cell-category-font-size);
+  font-weight: var(--cell-category-font-weight);
+  letter-spacing: var(--cell-category-letter-spacing);
+  line-height: var(--cell-category-line-height);
+}
+
+.cell.category-down .states {
+  font-family: var(--cell-category-font-family);
+  font-size: var(--cell-category-font-size);
+  font-weight: var(--cell-category-font-weight);
+  letter-spacing: var(--cell-category-letter-spacing);
+  line-height: var(--cell-category-line-height);
+}
+
+.cell.category-up .states {
+  font-family: var(--cell-category-font-family);
+  font-size: var(--cell-category-font-size);
+  font-weight: var(--cell-category-font-weight);
+  letter-spacing: var(--cell-category-letter-spacing);
+  line-height: var(--cell-category-line-height);
+}
+
+.cell.years-down .states {
+  font-family: var(--cell-category-font-family);
+  font-size: var(--cell-category-font-size);
+  font-weight: var(--cell-category-font-weight);
+  letter-spacing: var(--cell-category-letter-spacing);
+  line-height: var(--cell-category-line-height);
+}
+
+.cell.state .category {
+  font-family: var(--cell-category-font-family);
+  font-size: var(--cell-category-font-size);
+  font-weight: var(--cell-category-font-weight);
+  letter-spacing: var(--cell-category-letter-spacing);
+  line-height: var(--cell-category-line-height);
+}
+
+.cell.first-column .category {
+  font-family: var(--cell-category-font-family);
+  font-size: var(--cell-category-font-size);
+  font-weight: var(--cell-category-font-weight);
+  letter-spacing: var(--cell-category-letter-spacing);
+  line-height: var(--cell-category-line-height);
+}
+
+.cell.years-up .category {
+  font-family: var(--cell-category-font-family);
+  font-size: var(--cell-category-font-size);
+  font-weight: var(--cell-category-font-weight);
+  letter-spacing: var(--cell-category-letter-spacing);
+  line-height: var(--cell-category-line-height);
+}
+
+.cell.states-down .category {
+  font-family: var(--cell-category-font-family);
+  font-size: var(--cell-category-font-size);
+  font-style: var(--cell-category-font-style);
+  font-weight: var(--cell-category-font-weight);
+  letter-spacing: var(--cell-category-letter-spacing);
+  line-height: var(--cell-category-line-height);
+}
+
+.cell.states-up .category {
+  font-family: var(--cell-category-font-family);
+  font-size: var(--cell-category-font-size);
+  font-weight: var(--cell-category-font-weight);
+  letter-spacing: var(--cell-category-letter-spacing);
+  line-height: var(--cell-category-line-height);
+}
+
+.cell.data .category {
+  font-family: var(--cell-category-font-family);
+  font-size: var(--cell-category-font-size);
+  font-weight: var(--cell-category-font-weight);
+  letter-spacing: var(--cell-category-letter-spacing);
+  line-height: var(--cell-category-line-height);
+}
+
+.cell.category-down .category {
+  font-family: var(--cell-category-font-family);
+  font-size: var(--cell-category-font-size);
+  font-style: var(--cell-category-font-style);
+  font-weight: var(--cell-category-font-weight);
+  letter-spacing: var(--cell-category-letter-spacing);
+  line-height: var(--cell-category-line-height);
+}
+
+.cell.category-up .category {
+  font-family: var(--cell-category-font-family);
+  font-size: var(--cell-category-font-size);
+  font-weight: var(--cell-category-font-weight);
+  letter-spacing: var(--cell-category-letter-spacing);
+  line-height: var(--cell-category-line-height);
+}
+
+.cell.years-down .category {
+  font-family: "Public Sans", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.cell.state .states-drop {
+  background-color: #ffffff;
+  border-left-width: 2px;
+  padding: 0px 0px 0px 2px;
+  width: 283px;
+}
+
+.cell.first-column .states-drop {
+  background-color: #ffffff;
+  border-left-width: 2px;
+  padding: 0px 0px 0px 2px;
+  width: 283px;
+}
+
+.cell.years-up .states-drop {
+  background-color: #ffffff;
+  border-left-width: 2px;
+  padding: 0px 0px 0px 2px;
+  width: 283px;
+}
+
+.cell.states-down .states-drop {
+  background-color: #ffffff;
+  border-left-width: 2px;
+  height: 588px;
+  padding: 0px 0px 0px 2px;
+  width: 283px;
+}
+
+.cell.states-up .states-drop {
+  background-color: #ffffff;
+  border-left-width: 2px;
+  padding: 0px 0px 0px 2px;
+  width: 283px;
+}
+
+.cell.data .states-drop {
+  background-color: #ffffff;
+  border-left-width: 2px;
+  padding: 0px 0px 0px 2px;
+  width: 283px;
+}
+
+.cell.category-down .states-drop {
+  background-color: var(--full-white);
+  border-left-width: 1px;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  width: 283px;
+}
+
+.cell.category-up .states-drop {
+  background-color: #ffffff;
+  border-left-width: 2px;
+  padding: 0px 0px 0px 2px;
+  width: 283px;
+}
+
+.cell.years-down .states-drop {
+  background-color: #ffffff;
+  border-left-width: 2px;
+  height: 563px;
+  padding: 0px 0px 0px 2px;
+  width: 150px;
+}
+
+.cell.state .frame-8 {
+  align-items: flex-start;
+  display: flex;
+  height: 560px;
+  position: relative;
+}
+
+.cell.first-column .frame-8 {
+  align-items: flex-start;
+  display: flex;
+  height: 560px;
+  position: relative;
+}
+
+.cell.years-up .frame-8 {
+  align-items: flex-start;
+  display: flex;
+  height: 560px;
+  position: relative;
+}
+
+.cell.states-down .frame-8 {
+  align-items: flex-start;
+  display: flex;
+  height: 560px;
+  position: relative;
+  width: 265px;
+}
+
+.cell.states-up .frame-8 {
+  align-items: flex-start;
+  display: flex;
+  height: 560px;
+  position: relative;
+}
+
+.cell.data .frame-8 {
+  align-items: flex-start;
+  display: flex;
+  height: 560px;
+  position: relative;
+}
+
+.cell.category-down .frame-8 {
+  align-items: flex-start;
+  display: flex;
+  height: 560px;
+  position: relative;
+}
+
+.cell.category-up .frame-8 {
+  align-items: flex-start;
+  display: flex;
+  height: 560px;
+  position: relative;
+}
+
+.cell.years-down .frame-8 {
+  align-items: center;
+  background-color: var(--basebase-lightest);
+  display: inline-flex;
+  height: 561px;
+  left: 134px;
+  padding: 4px 3px;
+  position: absolute;
+  top: 0;
+}
+
+.cell.state .scroll-bar {
+  align-items: center;
+  height: 586px;
+  width: 14px;
+}
+
+.cell.first-column .scroll-bar {
+  align-items: center;
+  height: 586px;
+  width: 14px;
+}
+
+.cell.years-up .scroll-bar {
+  align-items: center;
+  height: 586px;
+  width: 14px;
+}
+
+.cell.states-down .scroll-bar {
+  align-items: center;
+  background-color: var(--basebase-lightest);
+  height: 586px;
+  padding: 4px 3px;
+  width: 14px;
+}
+
+.cell.states-up .scroll-bar {
+  align-items: center;
+  height: 586px;
+  width: 14px;
+}
+
+.cell.data .scroll-bar {
+  align-items: center;
+  height: 586px;
+  width: 14px;
+}
+
+.cell.category-down .scroll-bar {
+  align-items: center;
+  height: 586px;
+  width: 14px;
+}
+
+.cell.category-up .scroll-bar {
+  align-items: center;
+  height: 586px;
+  width: 14px;
+}
+
+.cell.years-down .scroll-bar {
+  align-items: flex-start;
+  height: 561px;
+  width: 146px;
+}

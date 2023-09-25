@@ -1,0 +1,138 @@
+.data-table {
+  position: relative;
+}
+
+.data-table .category-3 {
+  align-items: flex-start;
+  display: inline-flex;
+}
+
+.data-table .cell-instance {
+  width: 370px !important;
+}
+
+.data-table .row-instance {
+  flex: 0 0 auto !important;
+}
+
+.data-table .table {
+  align-items: flex-start;
+  display: inline-flex;
+}
+
+.data-table .row-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.data-table .single-entry-wrapper {
+  align-items: flex-start;
+  background-color: var(--full-white);
+  border-color: var(--basebase);
+  border-right-style: solid;
+  border-right-width: 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px;
+  position: relative;
+  width: 370px;
+}
+
+.data-table .single-entry-2 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  padding: 5px;
+  position: relative;
+  width: 100%;
+}
+
+.data-table .text-wrapper-9 {
+  color: var(--baseink);
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size);
+  font-style: var(--body-font-style);
+  font-weight: var(--body-font-weight);
+  letter-spacing: var(--body-letter-spacing);
+  line-height: var(--body-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.data-table .cell-2 {
+  align-items: flex-start;
+  background-color: var(--basebase-lighter);
+  border-color: var(--basebase);
+  border-right-style: solid;
+  border-right-width: 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px;
+  position: relative;
+  width: 370px;
+}
+
+.data-table.single-year {
+  height: 2860px;
+  width: 1981px;
+}
+
+.data-table.three-states-3-years {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.data-table.multi-year {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.data-table.single-year .category-3 {
+  flex-direction: column;
+  left: 0;
+  position: absolute;
+  top: 52px;
+}
+
+.data-table.three-states-3-years .category-3 {
+  box-shadow: var(--card-shadow);
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.data-table.multi-year .category-3 {
+  box-shadow: var(--card-shadow);
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.data-table.single-year .table {
+  box-shadow: var(--card-shadow);
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.data-table.three-states-3-years .table {
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+}
+
+.data-table.multi-year .table {
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+}

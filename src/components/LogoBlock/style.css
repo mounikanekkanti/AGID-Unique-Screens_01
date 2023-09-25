@@ -1,0 +1,102 @@
+.logo-block {
+  align-items: center;
+  gap: 20px;
+  position: relative;
+}
+
+.logo-block .ACL-logo {
+  object-fit: cover;
+  position: relative;
+}
+
+.logo-block .AGID-title {
+  align-items: flex-start;
+  flex-direction: column;
+  position: relative;
+}
+
+.logo-block .text-wrapper-2 {
+  color: #1b1b1b;
+  font-family: var(--h5-font-family);
+  font-size: var(--h5-font-size);
+  font-style: var(--h5-font-style);
+  font-weight: var(--h5-font-weight);
+  letter-spacing: var(--h5-letter-spacing);
+  line-height: var(--h5-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.logo-block .aging-independence {
+  color: #1b1b1b;
+  position: relative;
+}
+
+.logo-block.footer-false {
+  display: inline-flex;
+}
+
+.logo-block.header-false {
+  width: 555px;
+}
+
+.logo-block.footer-true.header-false {
+  display: flex;
+}
+
+.logo-block.footer-false .ACL-logo {
+  height: 61px;
+  width: 147px;
+}
+
+.logo-block.footer-true.header-false .ACL-logo {
+  height: 38px;
+  width: 94px;
+}
+
+.logo-block.footer-false .AGID-title {
+  display: inline-flex;
+  flex: 0 0 auto;
+  padding: 20px 0px;
+}
+
+.logo-block.header-false .AGID-title {
+  gap: 5px;
+  justify-content: center;
+  width: 392px;
+}
+
+.logo-block.footer-true.header-false .AGID-title {
+  display: flex;
+}
+
+.logo-block.footer-false .text-wrapper-2 {
+  width: 389px;
+}
+
+.logo-block.header-false .text-wrapper-2 {
+  align-self: stretch;
+}
+
+.logo-block.footer-false .aging-independence {
+  font-family: var(--h2-font-family);
+  font-size: var(--h2-font-size);
+  font-style: var(--h2-font-style);
+  font-weight: var(--h2-font-weight);
+  letter-spacing: var(--h2-letter-spacing);
+  line-height: var(--h2-line-height);
+  width: 619px;
+}
+
+.logo-block.header-false .aging-independence {
+  align-self: stretch;
+}
+
+.logo-block.footer-true.header-false .aging-independence {
+  font-family: var(--h3-font-family);
+  font-size: var(--h3-font-size);
+  font-style: var(--h3-font-style);
+  font-weight: var(--h3-font-weight);
+  letter-spacing: var(--h3-letter-spacing);
+  line-height: var(--h3-line-height);
+}

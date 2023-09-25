@@ -1,0 +1,1 @@
+export { IconAssessment } from "./IconAssessment";

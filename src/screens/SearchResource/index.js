@@ -1,0 +1,1 @@
+export { SearchResource } from "./SearchResource";

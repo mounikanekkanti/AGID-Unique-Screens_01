@@ -1,0 +1,142 @@
+.search .overlap {
+  position: relative;
+}
+
+.search .img {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.search .group {
+  position: absolute;
+  top: 0;
+}
+
+.search .search-wrapper {
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.search .input {
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  font-family: "Public Sans", Helvetica;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  padding: 0;
+  position: absolute;
+}
+
+.search .icon-405 {
+  height: 24px !important;
+  left: 12px !important;
+  position: absolute !important;
+  top: 4px !important;
+  width: 24px !important;
+}
+
+.search.big {
+  height: 48px;
+  width: 480px;
+}
+
+.search.default {
+  height: 32px;
+  width: 479px;
+}
+
+.search.small {
+  height: 32px;
+  width: 340px;
+}
+
+.search.big .overlap {
+  height: 48px;
+  width: 482px;
+}
+
+.search.default .overlap {
+  height: 32px;
+  width: 482px;
+}
+
+.search.small .overlap {
+  height: 32px;
+}
+
+.search.big .img {
+  height: 48px;
+  object-fit: cover;
+  width: 342px;
+}
+
+.search.default .img {
+  height: 32px;
+  width: 395px;
+}
+
+.search.small .img {
+  height: 32px;
+  object-fit: cover;
+  width: 292px;
+}
+
+.search.big .group {
+  height: 48px;
+  left: 342px;
+  width: 140px;
+}
+
+.search.default .group {
+  height: 32px;
+  left: 394px;
+  width: 88px;
+}
+
+.search.small .group {
+  background-image: url(../../../static/img/rectangle-59-5.svg);
+  background-size: 100% 100%;
+  height: 32px;
+  left: 290px;
+  width: 49px;
+}
+
+.search.big .search-wrapper {
+  background-image: url(../../../static/img/rectangle-59-7.svg);
+  height: 48px;
+  width: 138px;
+}
+
+.search.default .search-wrapper {
+  background-image: url(../../../static/img/rectangle-59-6.svg);
+  height: 32px;
+  width: 86px;
+}
+
+.search.small .search-wrapper {
+  background-image: url(../../../static/img/rectangle-59-6.svg);
+  height: 32px;
+  width: 86px;
+}
+
+.search.big .input {
+  font-size: 22px;
+  left: 32px;
+  top: 11px;
+}
+
+.search.default .input {
+  font-size: 16px;
+  left: 16px;
+  top: 6px;
+  white-space: nowrap;
+}
+
+.search.small .input {
+  font-size: 16px;
+  left: 16px;
+  top: 6px;
+}

@@ -1,0 +1,1 @@
+export { IconAccessibilityNew } from "./IconAccessibilityNew";
